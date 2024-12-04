@@ -1,7 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <ctype.h>
+#include "cmdcalc.h"
 
 int main(int argc, char *argv[]) {
     if (argc < 5) { //3 для выражения и 2 для ключа дешифрования
