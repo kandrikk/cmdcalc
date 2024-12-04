@@ -58,11 +58,7 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    printf("Результирующая строка: ");
-    for (int i = 0; i < result_count; i++) {
-        decoded_string[i] = (char)(results[i] - key);
-        printf("%c", decoded_string[i]);
-    }
+    print(result_count, decoded_string, results, key);
 
     printf("\n");
 

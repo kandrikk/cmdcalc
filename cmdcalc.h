@@ -8,5 +8,6 @@
 #include <ctype.h>
 
 int calculate(int a, char operator, int b);
+void print(int result_count, char *decoded_string, int *results, int key);
 
 #endif
