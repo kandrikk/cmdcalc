@@ -13,6 +13,8 @@ cmdcalc.o: cmdcalc.c cmdcalc.h
 print.o: print.c cmdcalc.h 
 	$(CC) -c print.c 
  
+run: main
+	./main 41 + 33 111 - 8 22 \* 5 221 % 111 100 + 13 -k 2
  
 clean: 
 	rm -rf *.o main
